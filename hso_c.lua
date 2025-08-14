@@ -1,3 +1,4 @@
+-- by Hso (Hussein Ali)
 local sx, sy = guiGetScreenSize()
 local Hso_win, Hso_grid, Hso_addEdit, Hso_btnAdd, Hso_btnEdit, Hso_btnRemove, Hso_btnClose, Hso_chkVeh, Hso_chkOcc, Hso_btnLang
 local edit_win, edit_chkVeh, edit_chkOcc, edit_btnSave
@@ -178,4 +179,5 @@ addEventHandler("Hso:vp:openPanel", resourceRoot, function(data)
     Hso_updateGrid()
     guiSetVisible(Hso_win, true)
     showCursor(true)
+
 end)
