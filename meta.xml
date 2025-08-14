@@ -1,0 +1,6 @@
+<meta>
+    <info author="hussein" description="Vehicle Protection System" version="1.0" type="script" />
+    <script src="shared.lua" type="shared" />
+    <script src="hso_c.lua" type="client" cache="false"/>
+    <script src="hso_s.lua" type="server" />
+</meta>
