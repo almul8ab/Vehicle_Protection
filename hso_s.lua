@@ -1,3 +1,4 @@
+-- by Hso (Hussein Ali)
 local db = dbConnect("sqlite", "vehicleProtection.db")
 if db then
     dbExec(db, [[
@@ -95,4 +96,5 @@ addEventHandler("Hso:vp:removeModel", root, function(model)
     dbExec(db, "DELETE FROM protectedVehicles WHERE model=?", model)
     updateAllVehiclesOfModel(model, false)
     triggerClientEvent(root, "Hso:vp:syncChange", resourceRoot, model, nil, nil)
+
 end)
