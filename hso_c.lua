@@ -13,7 +13,7 @@ local texts = {
         window = "حماية السيارات", add = "اضافة", edit = "تعديل", remove = "حذف", close = "اغلاق", vehProt = "حماية السيارة", occProt = "حماية الركاب", langBtn = "English", colModel = "موديل", editWin = "تعديل الحماية", save = "حفظ", addEditPlaceholder = "ايدي السيارة"
     },
     en = {
-        window = "Vehicle Protection", add = "Add", edit = "Edit", remove = "Remove", close = "Close", vehProt = "Vehicle Protection", occProt = "Occupant Protection", langBtn = "عربي", colModel = "Model", editWin = "Edit Protection", save = "Save", addEditPlaceholder = "ID Vechile"
+        window = "Vehicle Protection", add = "Add", edit = "Edit", remove = "Remove", close = "Close", vehProt = "Vehicle Protection", occProt = "Occupant Protection", langBtn = "عربي", colModel = "Model", editWin = "Edit Protection", save = "Save", addEditPlaceholder = "ID Vehicle"
     }
 }
 
